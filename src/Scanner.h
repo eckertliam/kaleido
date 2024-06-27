@@ -25,6 +25,6 @@ static std::string IdentStr;
 static double NumVal;
 
 // each token is returned as an enum or as an ascii char
-static int gettok();
+static inline int gettok();
 
 #endif //KALEIDO_SCANNER_H

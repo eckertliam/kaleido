@@ -5,7 +5,7 @@
 #include "Scanner.h"
 
 // returns the next token from std input
-int gettok() {
+static inline int gettok() {
     static int LastChar = ' ';
 
     // skip any ws
