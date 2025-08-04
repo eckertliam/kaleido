@@ -18,6 +18,7 @@ add_executable(kaleido src/main.cpp
         src/lexer.hpp
         src/ast.hpp
         src/parser.hpp
+        src/ast.cpp
 )
 
 
